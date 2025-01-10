@@ -1,0 +1,24 @@
+{
+  "name": "TypeScript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+  ,"scripts": {
+  "build": "tsc",
+  "start": "node dist/index.js",
+  "test": "jest",
+  "dev": "ts-node src/index.ts"
+},
+"scripts": {
+    "start:filter": "ts-node src/objects-filter/index.ts",
+    "test": "jest"
+}
+}
